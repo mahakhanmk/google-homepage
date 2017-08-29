@@ -1,3 +1,153 @@
+
 body {
-	font-family: arial,sans-serif;
+	font-size: 13px;
+  	font-family: arial, sans-serif;
 }
+
+.logo {
+	padding-top: 200px;
+	padding-left: 40px;
+	height: 175px;
+	display: block;
+	max-width: 300px;
+	margin: 0 auto; /*centers the element*/
+}
+#apps img{
+	width: 20px;
+	height:20px;
+	display: block;
+	bottom: 0;
+}
+
+#mail, #images, #apps, #signin {
+	display: inline-block;
+	float: right;
+	padding: 2px;
+	line-height: 24px;
+	text-align: right;
+	opacity: .75;
+	padding: 3px 8px;
+	margin-right: 11px;
+	left: 10px;
+}
+
+#mail a, #images a {
+	color: #000;
+	text-decoration: none;
+}
+
+#mail a:hover , #images a:hover {
+	text-decoration: underline;
+}
+
+#signin {
+	background-color: #4285F4;
+	border-radius: 2px;
+	font-weight: bold;
+	/*white-space: nowrap;*/
+}
+
+#signin a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+#signin a:hover {
+	text-decoration: underline;
+}
+
+#google_btn , #lucky_btn {
+	padding: 10px;
+	background-color: #F2F2F2;
+	margin-right: 5px;
+}
+#google_btn a, #lucky_btn a {
+	text-decoration: none;
+	color: #757575;
+	font-weight: bold;
+}
+
+#google_btn a:hover, #lucky_btn a:hover {
+	color: #000;
+	box-sizing: border-box;
+	box-shadow: 1px #000;
+}
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#advertising, #business, #about, #privacy, #terms, #settings {
+	display: inline-block;
+	padding: 6px;
+	line-height: 24px;
+	text-align: right;
+	padding-left: 15px;
+	padding-right: 15px;
+	opacity: 0.75;
+}
+
+.l-footer {
+	float: left;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin-bottom: 0;
+	padding-left: 14px;
+}
+
+.r-footer {
+	float: right;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 0;
+	padding-right: 14px;
+}
+
+.l-footer a , .r-footer a {
+	color: #666;
+	text-decoration: none;
+}
+
+.l-footer a:hover , .r-footer a:hover {
+	text-decoration: underline;
+}
+
+.footer {
+	position: absolute;
+	border: 1px solid #e4e4e4;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 1;
+	padding: 11.5px;
+	background-color: #F2F2F2;
+}
+
+.searchbar input {
+	display: block;
+	position: relative;
+	border-radius: 2px;
+	margin: 0 auto;
+	height: 38px;
+	width: 565px;
+	text-align: left;
+	bottom: 38.5px;
+	/*change box shadow's color to a shade of gray*/
+	box-shadow: 0 2px 0 2px rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.88);
+}
+
+.searchbar input:hover{
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+/*
+.searchbar img{
+  position: absolute;
+  top: 30.8%;
+  left: 67%;
+}
+*/
+
