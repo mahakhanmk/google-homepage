@@ -44,7 +44,6 @@ body {
 	background-color: #4285F4;
 	border-radius: 2px;
 	font-weight: bold;
-	/*white-space: nowrap;*/
 }
 
 #signin a {
@@ -136,18 +135,15 @@ body {
 	text-align: left;
 	bottom: 38.5px;
 	/*change box shadow's color to a shade of gray*/
-	box-shadow: 0 2px 0 2px rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.88);
+	box-shadow: 0 1px 3px #a9b1ac;
 }
 
 .searchbar input:hover{
-  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+  box-shadow: 1px 2px 6px #a9b1ac;
 }
 
-/*
 .searchbar img{
   position: absolute;
-  top: 30.8%;
-  left: 67%;
+  top: 53.5%;
+  left: 69.5%;
 }
-*/
-
